@@ -3,5 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="C:/Users/Tristan/Desktop/PLugin BlizzTeam/bukkit-1.6.4-R0.1-20131021.003018-11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/coco_gigpn/Desktop/codage/libs/bukkit-1.6.4-R0.1-20131021.003018-11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
