@@ -1,5 +1,5 @@
 package fr.blizzteam.hg;
 
-public class Main {
+public class HungerGames {
 
 }
