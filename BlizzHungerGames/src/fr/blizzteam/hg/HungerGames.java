@@ -1,5 +1,9 @@
 package fr.blizzteam.hg;
 
-public class HungerGames {
+public class HungerGames  {
+	
+	public void dlodjd() {
+		
+	}
 
 }
