@@ -1,0 +1,17 @@
+name: BlizzHungergames
+version: 0.1
+main: fr.blizzteam.hg.HungerGames
+description: Plugin HungerGames Blizz Team!
+ 
+commands:
+    motd:
+        usage: /<command>
+        description: View MOTD
+    setmotd:
+        usage: /<command>
+        description: Set MOTD
+       
+permissions:
+    motd.set:
+        description: Use the setmotd command to change the MOTD.
+        default: op
