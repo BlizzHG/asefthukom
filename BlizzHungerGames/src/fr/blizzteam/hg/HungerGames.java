@@ -12,6 +12,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import Commands.Help;
+import Commands.List;
  
 public class HungerGames extends JavaPlugin implements Listener {
 	
@@ -23,6 +24,7 @@ public class HungerGames extends JavaPlugin implements Listener {
         getConfig().options().copyDefaults(true);
         saveConfig();
         getCommand("help").setExecutor(new Help(this));
+        getCommand("list").setExecutor(new List(this));
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
         launchTime = DateUtils.addHours(new Date(), 1);

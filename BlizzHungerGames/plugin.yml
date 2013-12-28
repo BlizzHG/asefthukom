@@ -4,7 +4,7 @@ main: fr.blizzteam.hg.HungerGames
 description: Plugin HungerGames Blizz Team!
  
 commands:
-    aide:
+    test:
         usage: /<command>
         description: View help
     help:
