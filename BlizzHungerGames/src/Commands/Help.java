@@ -28,10 +28,11 @@ public class Help implements CommandExecutor {
                     String v = ChatColor.DARK_PURPLE + Bukkit.getBukkitVersion();
                     String bvn = ChatColor.DARK_PURPLE + player.getName();
                     player.sendMessage("§4▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
+                    player.sendMessage("§4▬§2Start§7:" + "§4="); //+ getTimestart);
                     player.sendMessage("§4▬    §dBienvenue§7: " + bvn + "      §4▬");
                     player.sendMessage("§4▬§2Version§7: " + v + "               §4▬");
                     player.sendMessage("§4▬§2Site§7: §5Blizzgames.com           §4▬");
-                    player.sendMessage("§4▬§2Commands§7: §5/kits,/kit,/kitinfo   §4▬");
+                    player.sendMessage("§4▬§2Commandes§7: §5/kits,/kit,/kitinfo   §4▬");
                     player.sendMessage("§4▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
             }
            
