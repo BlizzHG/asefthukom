@@ -4,9 +4,6 @@ main: fr.blizzteam.hg.HungerGames
 description: Plugin HungerGames Blizz Team!
  
 commands:
-    test:
-        usage: /<command>
-        description: View help
+    list:
     help:
-        usage: /<command>
-        description: view player
+        
