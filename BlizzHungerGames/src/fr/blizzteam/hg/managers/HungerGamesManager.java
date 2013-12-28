@@ -37,7 +37,7 @@ public class HungerGamesManager extends JavaPlugin implements Listener {
             } else {
                 // You can also print the duration of the game
                 //event.setMotd("Game has been running for " + formatter.format(dateDelta));
-                event.setMotd("Le jeux est en cour.");
+                event.setMotd("Le jeux est en cours.");
             }
         }
     }
